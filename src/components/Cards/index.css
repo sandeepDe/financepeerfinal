@@ -1,0 +1,135 @@
+.view-container {
+  display: flex;
+  flex-direction: row;
+
+  margin: 20px;
+
+  width: 51%;
+}
+
+.mobileBackHome {
+  display: none;
+}
+
+.logout-desktop-btn {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 16px;
+  height: 22px;
+  color: #ffffff;
+  background-color: transparent;
+  border: solid 1px #ffffff;
+  border-radius: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.mobile-logout {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .backHome {
+    display: none;
+  }
+}
+
+.mob-btn {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 12px;
+
+  color: #ffffff;
+  background-color: transparent;
+  border: solid 1px #ffffff;
+  border-radius: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 769px) {
+  .mob-btn {
+    display: none;
+  }
+}
+
+.mob-home {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 12px;
+
+  color: #ffffff;
+  background-color: transparent;
+  border: solid 1px #ffffff;
+  border-radius: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 769px) {
+  .mob-home {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nameEle {
+    color: #e6e6fa;
+    font-family: 'Bree Serif';
+
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+.backHome {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: transparent;
+  border: solid 1px #ffffff;
+  border-radius: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  margin-bottom: 30px;
+}
+.bg-container {
+  background-image: linear-gradient(to right, #000000, #813afe, #000000);
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ul-element {
+  width: 79%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nameEle {
+  color: #e6e6fa;
+  font-family: 'Bree Serif';
+
+  flex-grow: 2;
+  text-align: center;
+}
